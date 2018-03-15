@@ -1,6 +1,8 @@
 <?php
 
-require "Personnage.php";
+require "Autololoader.php";
+autoloader::register();
+
 
 $merlin = new Personnage("Merlin");
 
